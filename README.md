@@ -23,7 +23,7 @@ Then you need to wait few minutes for the database to be ready
 docker logs -f oracle
 ```
 
-4. Finally, you can connect to the container using SQLPLUS by typing the following command (replace user, password and dbname if you change it (default database is XEPDB1)):
+4. Finally, you can connect to the container using SQLPLUS by typing the following command (replace user, password and dbname if you change it (default database is FREEPDB1)):
 
 ```bash
 docker exec -it oracle sqlplus appuser/AppPass123@localhost/FREEPDB1
