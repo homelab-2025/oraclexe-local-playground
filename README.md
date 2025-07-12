@@ -26,5 +26,5 @@ docker logs -f oracle
 4. Finally, you can connect to the container using SQLPLUS by typing the following command (replace user, password and dbname if you change it (default database is XEPDB1)):
 
 ```bash
-docker exec -it oracle sqlplus appuser/AppPass123@localhost/XEPDB1
+docker exec -it oracle sqlplus appuser/AppPass123@localhost/FREEPDB1
 ```
